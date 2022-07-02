@@ -797,6 +797,10 @@ http://www.templatemo.com/tm-515-eatery
     }
   }
 
+  #footer .footer-info a{
+    text-decoration:underline !important;
+  }
+
   /*---------------------------------------
      SOCIAL ICON              
   -----------------------------------------*/
