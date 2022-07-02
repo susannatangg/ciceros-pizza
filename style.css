@@ -364,6 +364,16 @@ http://www.templatemo.com/tm-515-eatery
     position: relative;
   }
 
+  #home #hero-break{
+    display:none;
+  }
+
+  @media (max-width:768px){
+    #home #hero-break{
+      display:block;
+    }
+  }
+
 
 
 
