@@ -368,7 +368,7 @@ http://www.templatemo.com/tm-515-eatery
     display:none;
   }
 
-  @media (max-width:768px){
+  @media (max-width:400px){
     #home #hero-break{
       display:block;
     }
