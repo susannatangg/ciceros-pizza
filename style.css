@@ -110,6 +110,7 @@ http://www.templatemo.com/tm-515-eatery
 
   #team, 
   #menu,
+  #jobs,
   #testimonial {
     text-align: center;
   }
@@ -475,6 +476,7 @@ http://www.templatemo.com/tm-515-eatery
   -----------------------------------------*/
 
   #menu {
+    background: #f2f1f1;
     padding-bottom: 0;
   }
 
@@ -563,6 +565,39 @@ http://www.templatemo.com/tm-515-eatery
 
   .menu-thumb:hover .menu-info {
     background: rgba(0,0,0,0.8);
+  }
+
+
+  /*---------------------------------------
+     JOBS              
+  -----------------------------------------*/
+
+  #jobs {
+    padding-bottom: 120px;
+  }
+
+  #jobs .container {
+    width: 100%;
+  }
+
+  #jobs .col-md-4 {
+    margin: 0;
+    padding: 0;
+  }
+
+  #jobs p{
+    width:90%;
+    max-width:1000px;
+    margin:auto;
+  }
+
+  #jobs a{
+    margin-top:30px;
+  }
+
+  #jobs a:hover{
+    background: #292929;
+    color:#fff;
   }
 
 
