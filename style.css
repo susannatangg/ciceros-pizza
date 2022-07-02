@@ -409,7 +409,7 @@ http://www.templatemo.com/tm-515-eatery
   -----------------------------------------*/
 
   #team {
-    background: #f2f1f1;
+    background: #fff;
   }
 
   .team-thumb {
@@ -582,6 +582,23 @@ http://www.templatemo.com/tm-515-eatery
     background: rgba(0,0,0,0.8);
   }
 
+  @media (pointer:none), (pointer:coarse){
+    .menu-thumb .menu-info h3,
+    .menu-thumb .menu-info p,
+    .menu-thumb .menu-info span {
+      transform: translateY(100%);
+      opacity: 1;
+      display: block;
+      transition: 0.5s 0.2s;
+      color: #ffffff;
+      z-index: 2;
+      position: relative;
+    }
+    .menu-thumb .menu-info {
+      background: rgba(0,0,0,0.8);
+    }
+  }
+
 
   /*---------------------------------------
      JOBS              
@@ -623,6 +640,7 @@ http://www.templatemo.com/tm-515-eatery
 
   #testimonial {
     background: url('img/testimonials.jpg') fixed center center;
+    background-repeat:no-repeat;
     background-size: cover;
   }
 
