@@ -397,7 +397,12 @@ http://www.templatemo.com/tm-515-eatery
     position: relative;
   }
 
+  @media (max-width:991px){
+    .about-image{
+      margin-bottom:120px;
 
+    }
+  }
 
   /*---------------------------------------
       TEAM              
